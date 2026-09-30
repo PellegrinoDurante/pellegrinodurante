@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pellegrino Durante — Backend Developer</title>
+  <meta name="description" content="Pellegrino Durante, Backend Developer. Sviluppo applicazioni e API con PHP, Laravel e Symfony dal 2018.">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta property="og:title" content="Pellegrino Durante — Backend Developer">
+  <meta property="og:description" content="Sviluppo applicazioni e API con PHP, Laravel e Symfony dal 2018.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230a0a0a'/%3E%3Ctext x='8' y='44' font-family='Arial,sans-serif' font-weight='700' font-size='30' fill='%23f7f7f5'%3EPD%3C/text%3E%3Crect x='50' y='38' width='6' height='6' fill='%23ffbb00'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <!-- Loader -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__top mono">
+      <span>Pellegrino Durante</span>
+      <span>Backend Developer</span>
+    </div>
+    <div class="loader__bottom">
+      <div class="loader__bar"><span></span></div>
+      <div class="loader__count"><span>000</span></div>
+    </div>
+  </div>
+
+  <div class="cursor" aria-hidden="true"></div>
+  <div class="progress" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Nav -->
+  <header class="nav">
+    <a href="#top" class="nav__logo" aria-label="Torna all'inizio">PD<i class="dot">.</i></a>
+    <nav class="nav__links mono" aria-label="Navigazione principale">
+      <a href="#about" class="hide-sm">Chi sono</a>
+      <a href="#experience" class="hide-sm">Esperienza</a>
+      <a href="#projects" class="hide-sm">Progetti</a>
+      <a href="#contact">Contatti</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero theme-dark" id="top">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="hero__bg" aria-hidden="true">&lt;?php</div>
+
+      <p class="hero__eyebrow mono" data-hero-fade>// Backend Developer — dal 2018</p>
+
+      <h1 class="hero__title">
+        <span class="line hero__line hero__line--1"><span class="line__inner">Pellegrino</span></span>
+        <span class="line hero__line hero__line--2"><span class="line__inner">Durante<i class="dot">.</i></span></span>
+      </h1>
+
+      <div class="hero__meta">
+        <p class="hero__intro" data-hero-fade>
+          Sviluppatore back-end. Scrivo API e servizi in PHP, con Laravel e Symfony.
+        </p>
+        <div class="hero__side" data-hero-fade>
+          <p class="hero__status mono"><span class="pulse"></span>Attualmente @ Jointly</p>
+          <a href="#about" class="hero__scroll mono">Scroll <span class="hero__scroll-line"></span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Marquee -->
+    <section class="marquee" aria-label="Competenze">
+      <div class="marquee__row">
+        <div class="marquee__inner">
+          <span class="marquee__item">PHP</span>
+          <span class="marquee__item">Laravel</span>
+          <span class="marquee__item">Symfony</span>
+          <span class="marquee__item">SQL</span>
+          <span class="marquee__item">REST API</span>
+          <span class="marquee__item">Microservizi</span>
+        </div>
+      </div>
+      <div class="marquee__row marquee__row--outline marquee__row--reverse">
+        <div class="marquee__inner">
+          <span class="marquee__item">Back-end</span>
+          <span class="marquee__item">JavaScript</span>
+          <span class="marquee__item">TypeScript</span>
+          <span class="marquee__item">LAMP</span>
+          <span class="marquee__item">Agile</span>
+          <span class="marquee__item">Videogiochi</span>
+          <span class="marquee__item">Gatti</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about theme-light" id="about">
+      <div class="about__grid">
+        <p class="label mono" data-reveal>(01) Chi sono</p>
+        <div>
+          <p class="about__text">
+            Ciao! Sono Pellegrino e dal 2018 scrivo codice lato server, soprattutto in PHP.
+            Mi piace costruire API semplici da usare e sistemi che funzionano bene anche
+            quando nessuno li guarda. Fuori dal codice? Videogiochi e gatti. Soprattutto gatti.
+          </p>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat" data-reveal>
+          <span class="rule" aria-hidden="true"></span>
+          <p class="stat__num"><span data-count="8" data-years-since="2018-10">8</span>+</p>
+          <p class="stat__label mono">Anni di esperienza</p>
+        </div>
+        <div class="stat" data-reveal>
+          <span class="rule" aria-hidden="true"></span>
+          <p class="stat__num"><span data-count="5">5</span></p>
+          <p class="stat__label mono">Aziende</p>
+        </div>
+        <div class="stat" data-reveal>
+          <span class="rule" aria-hidden="true"></span>
+          <p class="stat__num"><span data-count="17">17</span></p>
+          <p class="stat__label mono">Repository pubblici</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="exp theme-dark" id="experience">
+      <div class="exp__layout">
+        <aside class="exp__aside">
+          <p class="label mono">(02) Esperienza</p>
+          <h2 class="section-title reveal-title">
+            <span class="line"><span class="line__inner">Dove ho</span></span>
+            <span class="line"><span class="line__inner">lavorato<i class="dot">.</i></span></span>
+          </h2>
+          <p class="label mono exp__stack-label">Stack</p>
+          <dl class="stack">
+            <div><dt class="mono">Linguaggi</dt><dd>PHP, SQL, JavaScript, TypeScript</dd></div>
+            <div><dt class="mono">Framework</dt><dd>Laravel, Symfony</dd></div>
+            <div><dt class="mono">Architetture</dt><dd>REST API, Microservizi, LAMP</dd></div>
+            <div><dt class="mono">Metodo</dt><dd>Agile</dd></div>
+          </dl>
+        </aside>
+
+        <div class="exp__list">
+          <span class="exp__line" aria-hidden="true"><span></span></span>
+
+        <article class="job job--current">
+          <span class="job__num" aria-hidden="true">01</span>
+          <div class="job__meta mono job__reveal">
+            <span>Gen 2025 — Oggi</span>
+            <span class="job__badge"><i></i>Ora</span>
+          </div>
+          <div class="job__body">
+            <h3 class="job__company job__reveal">Jointly</h3>
+            <p class="job__role job__reveal">Backend Developer</p>
+            <p class="job__type mono job__reveal">Tempo pieno · <span data-since="2025-01">1 anno 9 mesi</span></p>
+            <p class="job__desc job__reveal">Sviluppo e manutenzione dei servizi back-end della piattaforma.</p>
+            <ul class="tags job__reveal"><li>PHP</li><li>Laravel</li></ul>
+          </div>
+        </article>
+
+        <article class="job">
+          <span class="job__num" aria-hidden="true">02</span>
+          <div class="job__meta mono job__reveal"><span>Mar 2022 — Dic 2024</span></div>
+          <div class="job__body">
+            <h3 class="job__company job__reveal">PED</h3>
+            <p class="job__role job__reveal">Back-end Developer</p>
+            <p class="job__type mono job__reveal">Tempo pieno · 2 anni 10 mesi</p>
+            <p class="job__desc job__reveal">Integrazione nel team back-end di una nota azienda cliente operante in ambito welfare e corporate wellbeing.</p>
+            <ul class="tags job__reveal"><li>PHP</li><li>Laravel</li></ul>
+          </div>
+        </article>
+
+        <article class="job">
+          <span class="job__num" aria-hidden="true">03</span>
+          <div class="job__meta mono job__reveal"><span>Feb 2021 — Mar 2022</span><span>Roma</span></div>
+          <div class="job__body">
+            <h3 class="job__company job__reveal">CarPlanner</h3>
+            <p class="job__role job__reveal">Sviluppatore PHP</p>
+            <p class="job__type mono job__reveal">Apprendistato · 1 anno 2 mesi</p>
+            <p class="job__desc job__reveal">Sviluppo con metodologia agile di un prodotto interno per l'acquisizione, qualifica e trasmissione di lead in ambito automotive, con architettura a microservizi.</p>
+            <ul class="tags job__reveal"><li>Symfony</li><li>PHP</li><li>Microservizi</li></ul>
+          </div>
+        </article>
+
+        <article class="job">
+          <span class="job__num" aria-hidden="true">04</span>
+          <div class="job__meta mono job__reveal"><span>Lug 2019 — Gen 2021</span><span>Roma</span></div>
+          <div class="job__body">
+            <h3 class="job__company job__reveal">NTT DATA Italia</h3>
+            <p class="job__role job__reveal">Software Developer Engineer</p>
+            <p class="job__type mono job__reveal">Apprendistato · 1 anno 7 mesi</p>
+            <p class="job__desc job__reveal">Sviluppo di applicazioni rivolte principalmente al back-office di una nota azienda di telecomunicazioni.</p>
+            <ul class="tags job__reveal"><li>PHP</li><li>SQL</li></ul>
+          </div>
+        </article>
+
+        <article class="job">
+          <span class="job__num" aria-hidden="true">05</span>
+          <div class="job__meta mono job__reveal"><span>Ott 2018 — Giu 2019</span><span>Italia</span></div>
+          <div class="job__body">
+            <h3 class="job__company job__reveal">MicroWare srl</h3>
+            <p class="job__role job__reveal">Software Developer</p>
+            <p class="job__type mono job__reveal">Apprendistato · 9 mesi</p>
+            <p class="job__desc job__reveal">Analisi e implementazione di nuove funzionalità e correzione di errori per un gestionale web in ambito assicurativo, su stack LAMP.</p>
+            <ul class="tags job__reveal"><li>PHP</li><li>SQL</li><li>LAMP</li></ul>
+          </div>
+        </article>
+
+          <div class="edu-mini">
+            <p class="label mono edu-mini__label">Formazione</p>
+            <div class="edu-mini__item">
+              <span class="mono edu-mini__years">2017 — 2021</span>
+              <div>
+                <h3 class="edu-mini__school">Università degli Studi di Salerno</h3>
+                <p class="edu-mini__detail">Informatica · corso frequentato per intero, senza conseguire la laurea</p>
+              </div>
+            </div>
+            <div class="edu-mini__item">
+              <span class="mono edu-mini__years">2011 — 2016</span>
+              <div>
+                <h3 class="edu-mini__school">I.T.I.S. Basilio Focaccia</h3>
+                <p class="edu-mini__detail">Diploma tecnico in Informatica · 97/100</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Band -->
+    <div class="band theme-dark" aria-hidden="true">
+      <p class="band__text">API solide — Codice pulito — Performance — Microservizi — API solide — Codice pulito —</p>
+    </div>
+
+    <!-- Projects -->
+    <section class="section projects theme-dark" id="projects">
+      <div class="projects__head">
+        <p class="label mono" data-reveal>(03) Side projects</p>
+        <h2 class="section-title reveal-title">
+          <span class="line"><span class="line__inner">Fuori</span></span>
+          <span class="line"><span class="line__inner">orario<i class="dot">.</i></span></span>
+        </h2>
+      </div>
+
+      <ul class="projects__list">
+        <li data-reveal>
+          <a class="project" href="https://github.com/PellegrinoDurante/project-marconi" target="_blank" rel="noopener">
+            <span class="project__num mono">01</span>
+            <span class="project__name">project-marconi</span>
+            <span class="project__desc">DNS e media server per trasmettere in streaming dalla console al computer.</span>
+            <span class="project__lang mono">JavaScript</span>
+            <span class="project__arrow" aria-hidden="true">↗</span>
+          </a>
+        </li>
+        <li data-reveal>
+          <a class="project" href="https://github.com/PellegrinoDurante/stream_proxy" target="_blank" rel="noopener">
+            <span class="project__num mono">02</span>
+            <span class="project__name">stream_proxy</span>
+            <span class="project__desc">DNS e media server per portare lo stream di console e altre sorgenti su app come OBS.</span>
+            <span class="project__lang mono">JavaScript</span>
+            <span class="project__arrow" aria-hidden="true">↗</span>
+          </a>
+        </li>
+        <li data-reveal>
+          <a class="project" href="https://github.com/PellegrinoDurante/gm-export-local-package" target="_blank" rel="noopener">
+            <span class="project__num mono">03</span>
+            <span class="project__name">gm-export-local-package</span>
+            <span class="project__desc">Tool da riga di comando per esportare local package dai progetti GameMaker Studio 2.</span>
+            <span class="project__lang mono">JavaScript</span>
+            <span class="project__arrow" aria-hidden="true">↗</span>
+          </a>
+        </li>
+        <li data-reveal>
+          <a class="project" href="https://github.com/PellegrinoDurante/symfony-activities-api" target="_blank" rel="noopener">
+            <span class="project__num mono">04</span>
+            <span class="project__name">symfony-activities-api</span>
+            <span class="project__desc">Progetto del weekend: API per la gestione di attività costruita con Symfony.</span>
+            <span class="project__lang mono">PHP</span>
+            <span class="project__arrow" aria-hidden="true">↗</span>
+          </a>
+        </li>
+        <li data-reveal>
+          <a class="project" href="https://github.com/PellegrinoDurante/WheresMyMoney_backend" target="_blank" rel="noopener">
+            <span class="project__num mono">05</span>
+            <span class="project__name">WheresMyMoney</span>
+            <span class="project__desc">Progetto personale full-stack: backend in PHP e frontend in JavaScript.</span>
+            <span class="project__lang mono">PHP · JS</span>
+            <span class="project__arrow" aria-hidden="true">↗</span>
+          </a>
+        </li>
+      </ul>
+
+      <a class="projects__all mono" href="https://github.com/PellegrinoDurante" target="_blank" rel="noopener" data-reveal>Tutti i repository su GitHub ↗</a>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact theme-light" id="contact">
+      <p class="label mono" data-reveal>(04) Contatti</p>
+      <h2 class="contact__title" data-chars>
+        <span class="line">Costruiamo</span>
+        <span class="line">qualcosa</span>
+        <span class="line">di solido<i class="dot">.</i></span>
+      </h2>
+
+      <div class="contact__row">
+        <p class="contact__text" data-reveal>Per collaborazioni, opportunità o anche solo per parlare di back-end: scrivimi.</p>
+        <div class="contact__links" data-reveal>
+          <a class="btn-round" href="https://www.linkedin.com/in/pellegrino-durante-14740313b/" target="_blank" rel="noopener" data-magnetic>
+            <span>LinkedIn ↗</span>
+          </a>
+          <a class="btn-round btn-round--ghost" href="https://github.com/PellegrinoDurante" target="_blank" rel="noopener" data-magnetic>
+            <span>GitHub ↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer theme-dark">
+    <p class="mono">© <span data-year>2026</span> Pellegrino Durante</p>
+    <p class="mono footer__mid">Backend Developer · Italia</p>
+    <a href="#top" class="mono">Torna su ↑</a>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
